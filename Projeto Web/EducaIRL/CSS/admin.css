@@ -1,0 +1,126 @@
+*{
+  margin: 0 20px;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+  align-items: center;
+  justify-content: center;
+ 
+  margin: 0 20px;
+}
+
+body{
+  display: flex;
+  cursor: default;
+}
+
+.improved-body{
+  background: #141313;
+}
+
+.container-main{
+  margin-top: 50px;
+}
+
+.container{
+  position: relative;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.title{
+  position: relative;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.title::before{
+  content: '';
+  position: absolute;
+  left: 60px;
+  bottom: 5px;
+  height: 3px;
+  width: 50px;
+  background-color: #F07508;
+  border-radius: 25px;
+}
+
+.tr{
+  border-bottom: 1px solid #F07508;
+}
+
+.span{
+  opacity: 0;
+}
+
+.tbody{
+  border-bottom: 1px  #F07508;
+  line-height: 25px;
+  
+}
+
+.td{
+  opacity: 0.75;
+  
+}
+
+td i{
+  color: #F07508;
+  font-size: 1.5em;
+}
+
+.noo{
+  color: #E63A3A;
+  margin-left: -2px;
+  cursor: pointer;
+}
+
+.noo:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.yess{
+  color: #14A807;
+  cursor: pointer;
+}
+
+.yess:hover{
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
+
+.no{
+  color: #E63A3A;
+}
+
+.yes{
+  color: #14A807;
+}
+
+.wait{
+  color: #FFBF00;
+}
+
+.scrollTop{
+  position: fixed;
+  bottom: 40px;
+  left: 5px;
+  width: 30px;
+  background: #fff;
+  border-radius: 6px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  z-index: 100000;
+}
+
+.back{
+  position: fixed;
+  margin-top: -2px;
+  font-size: 1.5em;
+  margin-left: 2px;
+  color: #F07508;
+}
